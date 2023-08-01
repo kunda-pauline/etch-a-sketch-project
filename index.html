@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch-project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1 class="animate-charcter">Etch-a-Sketch</h1>
+       
+    
+      <p id="prompt"></p>
+
+      <div id="buttons">
+      <form id=button-container>
+        <input type="radio" id="black-pen" name="pen" value="black-pen"> <label for="black-pen">Black</label>
+        <input type="radio" id="red-pen" name="pen" value="red-pen"> <label for="red-pen">Red</label>
+       
+      </form>
+      <button id="clear-button">eraser</button>
+      </div>
+      <div id="form" class="form">
+        <p>add  size of grid:</p><input type="text" id="user-number" class="user-number">
+        <p id="copy-input"></p>
+        <button id='user-submit' class="user-submit">send</button>        
+      </div>
+          
+      <div class="canvas">
+        <div class="container">
+        </div>
+    </div>
+
+  
+
+</div>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
